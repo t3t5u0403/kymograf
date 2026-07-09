@@ -3,7 +3,8 @@
   "private": true,
   "license": "MIT",
   "author": "t3t5u0403",
-  "version": "0.1.0",
+  "version": "0.1.1",
+  "desktopName": "kymograf",
   "type": "module",
   "main": "electron/main.mjs",
   "scripts": {
@@ -22,7 +23,6 @@
     "linux": {
       "target": ["AppImage"],
       "category": "AudioVideo",
-      "desktopName": "kymograf",
       "syncDesktopName": true
     },
     "win": { "target": ["nsis"] },
